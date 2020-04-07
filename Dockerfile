@@ -1,7 +1,6 @@
 FROM sonatype/nexus3
 
 COPY . /scripts
-RUN chmod +x /scripts/*
 
 ENV ADMIN_PASSWORD="admin123"
 
